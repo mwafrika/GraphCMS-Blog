@@ -1,6 +1,6 @@
 import { gql, request } from "graphql-request";
 import React from "react";
-const graphqlAPI = process.env.NEXT_PUBLIC__GRAPHCMS_ENDPOINT;
+const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
 export const getPost = async () => {
   const query = gql`
@@ -121,4 +121,15 @@ export const getCategories = async () => {
   `;
   const response = await request(graphqlAPI, query);
   return response.categories;
+};
+
+export const submitComment = async (obj) => {
+  const result = await fetch("/api/comments", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(obj),
+  });
+  return result.json();
 };
