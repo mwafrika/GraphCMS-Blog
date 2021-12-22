@@ -1,20 +1,20 @@
-# Next.js + Tailwind CSS Example
+# Blog application using GraphCMS
+
+### [Live Site](https://blog-with-cms.vercel.app/)
+
+![GraphCMS Headless Blog](https://i.ibb.co/NmnJnKD/image.png)
+
+## Description
+
+This is a blog project with featured , recent posts and categories. full markdown articles, author information, comments, and much more, this is a fully responsive CMS Blog Application . The very important thing about this is that you and your clients can manage the blog from a dedicated Content Management System.
+
+# Technologies used for the development
+
+## Documentation for using Next.js and Tailwind CSS
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
 It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
-
-## Preview
-
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
 ## How to use
 
