@@ -30,6 +30,7 @@ const FeaturedPosts = () => {
 
   useEffect(() => {
     getFeaturedPosts().then((result) => {
+      console.log(result);
       setFeaturedPosts(result);
       setDataLoaded(true);
     });
