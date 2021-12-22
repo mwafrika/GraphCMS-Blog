@@ -18,7 +18,7 @@ const Comments = ({ slug }) => {
         <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
           <h3 className="text-xl mb-8 font-semibold border-b pb-4">
             {comments.length}
-            {comments.length > 1 ? " replies" : " reply"} Comments
+            {comments.length > 1 ? " comments" : " comment"}
           </h3>
           {comments.map((comment) => (
             <div
