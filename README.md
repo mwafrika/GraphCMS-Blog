@@ -8,8 +8,6 @@
 
 This is a blog project with featured , recent posts and categories. full markdown articles, author information, comments, and much more, this is a fully responsive CMS Blog Application . The very important thing about this is that you and your clients can manage the blog from a dedicated Content Management System.
 
-# Technologies used for the development
-
 ## Documentation for using Next.js and Tailwind CSS
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
