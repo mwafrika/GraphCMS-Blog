@@ -9,7 +9,13 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head></Head>
+        <Head> 
+         <meta
+          name="image"
+          property="og:image"
+          content="https://res.cloudinary.com/ujuzi/image/upload/v1650090483/portfolio_images/home_zk39i5.png"
+          />
+      </Head>
         <body>
           <Main />
           <NextScript />
