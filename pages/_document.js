@@ -13,7 +13,7 @@ class MyDocument extends Document {
          <meta
           name="image"
           property="og:image"
-          content="https://res.cloudinary.com/ujuzi/image/upload/v1650090483/portfolio_images/home_zk39i5.png"
+          content="https://res.cloudinary.com/ujuzi/image/upload/v1650092446/portfolio_images/FireShot_Capture_008_-_CMS_Blog_-_blog-with-cms.vercel.app_w3pkph.png"
           />
       </Head>
         <body>
